@@ -44,6 +44,9 @@ winget install msys2.msys2
 * set the home dir to the windows home dir: `nano /etc/nsswitch.conf`, change the entry to `db_home: windows cygwin desc` 
 * In PyCharm set `C:\msys64\usr\bin\zsh.exe` as the terminal path
 
+Make a link for running zsh in the start menu:
+In this repo's directory run `cp bin/zsh.lnk ~/AppData/Roaming/Microsoft/Windows/Start\ Menu`
+
 # Settings
 ## environment variables (i.e. PATH)
 You can edit environment variables by Win-R `sysdm.cpl` > "Advanced" > "Environment Variables"
